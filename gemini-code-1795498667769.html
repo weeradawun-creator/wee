@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my mint — ยาสีฟันคู่ใจเพื่อความสดชื่นและมั่นใจในทุกวัน</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* จัดแต่ง Hero Section เต็มจอแรกให้โปร่งและหรูหรา */
+    .hero {
+      min-height: calc(100vh - 76px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 4rem 1.5rem;
+      background-color: var(--bg-primary);
+    }
+    .hero-content {
+      max-width: 780px;
+      margin: 0 auto;
+    }
+    .hero-subtitle {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--accent-gold);
+      margin-bottom: 1.5rem;
+      display: block;
+    }
+    .hero h1 {
+      margin-bottom: 1.75rem;
+    }
+    .hero p {
+      font-size: 1.05rem;
+      max-width: 600px;
+      margin: 0 auto 2.5rem;
+    }
+    .mood-card-link {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+      height: 100%;
+    }
+    .mood-card-link .card {
+      height: 100%;
+    }
+    .section-header {
+      text-align: center;
+      max-width: 640px;
+      margin: 0 auto 4rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header>
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo">my mint</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">หน้าแรก</a></li>
+          <li><a href="product.html">สินค้า</a></li>
+          <li><a href="order.html">สั่งซื้อ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section เต็มจอแรก -->
+  <section class="hero">
+    <div class="hero-content">
+      <span class="hero-subtitle">Premium Oral Care</span>
+      <h1>เริ่มต้นทุกวันด้วยความรู้สึกที่ใช่ เลือกความสดชื่นและความมั่นใจในแบบของคุณกับ my mint</h1>
+      <p>ยาสีฟันที่ผสานการดูแลสุขภาพช่องปากอย่างล้ำลึกเข้ากับสุนทรียภาพแห่งความเรียบง่าย เพื่อรอยยิ้มที่สะอาดและลมหายใจหอมสดชื่นตลอดวัน</p>
+      <a href="product.html" class="btn">ดูสินค้าทั้งหมด</a>
+    </div>
+  </section>
+
+  <!-- Section แสดง 4 Mood -->
+  <section class="section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="card-meta">Select Your Mood</span>
+        <h2>เลือกสัมผัสที่ใช่สำหรับคุณ</h2>
+        <p>ค้นพบสูตรยาสีฟันที่ออกแบบมาเพื่อตอบโจทย์ความรู้สึกและการดูแลช่องปากในแต่ละวัน</p>
+      </div>
+
+      <div class="grid-4">
+        <!-- Mood 1: Fresh -->
+        <a href="product.html?mood=fresh" class="mood-card-link">
+          <div class="card mood-fresh">
+            <div class="mood-indicator">
+              <span class="mood-dot"></span>
+              <span class="mood-text">Fresh</span>
+            </div>
+            <h3>สดชื่น</h3>
+            <div class="mood-underline"></div>
+            <p>ปลุกความสดชื่นให้เต็มที่ พร้อมระงับกลิ่นปากอย่างยาวนาน ให้คุณกล้ายิ้มและพูดคุยได้อย่างเต็มที่ในทุกสถานการณ์</p>
+            <div class="card-meta" style="margin-top: auto; padding-top: 1rem;">ดูสูตร Fresh &rarr;</div>
+          </div>
+        </a>
+
+        <!-- Mood 2: Sweet -->
+        <a href="product.html?mood=sweet" class="mood-card-link">
+          <div class="card mood-sweet">
+            <div class="mood-indicator">
+              <span class="mood-dot"></span>
+              <span class="mood-text">Sweet</span>
+            </div>
+            <h3>ละมุน</h3>
+            <div class="mood-underline"></div>
+            <p>สัมผัสรสชาติอ่อนโยนและสมดุลจากธรรมชาติ ช่วยปลอบประโลมและถนอมสุขภาพเหงือกและฟันอย่างนุ่มนวล</p>
+            <div class="card-meta" style="margin-top: auto; padding-top: 1rem;">ดูสูตร Sweet &rarr;</div>
+          </div>
+        </a>
+
+        <!-- Mood 3: Confident -->
+        <a href="product.html?mood=confident" class="mood-card-link">
+          <div class="card mood-confident">
+            <div class="mood-indicator">
+              <span class="mood-dot"></span>
+              <span class="mood-text">Confident</span>
+            </div>
+            <h3>มั่นใจ</h3>
+            <div class="mood-underline"></div>
+            <p>ดูแลสุขภาพช่องปากอย่างล้ำลึก ช่วยลดอาการเหงือกบวมและการเสียวฟัน เพื่อรอยยิ้มที่แข็งแรงและมั่นใจจากภายใน</p>
+            <div class="card-meta" style="margin-top: auto; padding-top: 1rem;">ดูสูตร Confident &rarr;</div>
+          </div>
+        </a>
+
+        <!-- Mood 4: Romance -->
+        <a href="product.html?mood=romance" class="mood-card-link">
+          <div class="card mood-romance">
+            <div class="mood-indicator">
+              <span class="mood-dot"></span>
+              <span class="mood-text">Romance</span>
+            </div>
+            <h3>น่าหลงใหล</h3>
+            <div class="mood-underline"></div>
+            <p>มอบลมหายใจหอมสะอาดมีเสน่ห์เฉพาะตัว เพิ่มความประทับใจในทุกช่วงเวลาใกล้ชิดและโอกาสพิเศษของคุณ</p>
+            <div class="card-meta" style="margin-top: auto; padding-top: 1rem;">ดูสูตร Romance &rarr;</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p class="brand-logo" style="font-size: 1.35rem; margin-bottom: 0.75rem;">my mint</p>
+      <p>&copy; 2026 my mint. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
